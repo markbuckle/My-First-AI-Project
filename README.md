@@ -1,2 +1,2 @@
 # My-First-AI-Project
-JS basics and API calls
+JS basics, more functions and API calls (OpenAI for this project)
