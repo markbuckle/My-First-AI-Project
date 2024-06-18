@@ -2,7 +2,7 @@ script.js
 
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script>
-        //all this code runs only when the pahge loads
+        //all this code runs only when the page loads
         console.log("START OF CODE");
 
         // get all the html elements
@@ -23,7 +23,7 @@ script.js
             // change the result paragraph to "thinking"...
             answers.innerHTML = "Thinking...";
         
-            // call openai and get results and show it on the page
+            // call OpenAI and get results and show it on the page
             const data = {
             model: "gpt-3.5-turbo",
             messages: [
